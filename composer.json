@@ -1,0 +1,22 @@
+{
+    "name": "tglogger/logchannel",
+    "description": "Log channel",
+    "type": "library",
+    "require-dev": {
+        "orchestra/testbench": "7.11"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Tglogger\\Logchannel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "anbozsultonov",
+            "email": "anboz98sultonov@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
