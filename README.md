@@ -27,7 +27,7 @@ config/logging.php
         'your-channel-name' => [
             'driver' => 'custom',
             'via' => \Tglogger\Logchannel\Logging\TelegramLoggerFactory::class,
-            'logger_name' => 'your_logger_name'
+            'logger_name' => 'your_logger_name',
             'chat_id' => "your chat id",
             'token' => "token",
             'level' => "log level",
