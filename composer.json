@@ -1,7 +1,12 @@
 {
+    "version": "1.0.0",
     "name": "tglogger/logchannel",
     "description": "Log channel",
     "type": "library",
+
+    "require": {
+        "php": "^8.1"
+    },
     "require-dev": {
         "orchestra/testbench": "7.11"
     },
@@ -17,6 +22,5 @@
             "email": "anboz98sultonov@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {}
+    "minimum-stability": "dev"
 }
