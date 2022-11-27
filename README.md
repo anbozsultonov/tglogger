@@ -41,9 +41,12 @@ config/logging.php
 
 \Log::channel('telegram')
     ->debug('log text');
- //or
- 
+````
+//result
+![img_2.png](img_2.png)
+    
+or
+ ````
 \Log::channel('your-channel-name')
-    ->debug('log text');
- 
+    ->debug('log text'); 
 ````
