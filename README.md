@@ -3,7 +3,7 @@
 **installing**
 
 ````
-composer require tglogger/logchannel
+composer require tglogger/tg
 ````
 
 
