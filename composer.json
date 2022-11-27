@@ -1,6 +1,6 @@
 {
     "version": "1.0.0",
-    "name": "tglogger/logchannel",
+    "name": "tglogger/tg",
     "description": "Log channel",
     "type": "library",
 
