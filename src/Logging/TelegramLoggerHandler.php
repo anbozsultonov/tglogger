@@ -24,10 +24,12 @@ final class TelegramLoggerHandler extends AbstractProcessingHandler
 
     public function write(array $record): void
     {
+        $text = is_array($record) ? $record['formatted'] : $record->formatted;
+
         TelegramBotApi::sendMessage(
             $this->token,
             $this->chatId,
-            is_array($record) ? $record['formatted'] : $record->formatted
+            $text
         );
     }
 }
