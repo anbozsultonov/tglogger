@@ -22,7 +22,7 @@ final class TelegramLoggerHandler extends AbstractProcessingHandler
         parent::__construct($level);
     }
 
-    public function write(array $record): void
+    public function write(mixed $record): void
     {
         $text = is_array($record) ? $record['formatted'] : $record->formatted;
 
